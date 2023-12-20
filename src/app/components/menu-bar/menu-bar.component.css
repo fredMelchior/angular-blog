@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  position:sticky;
+  top: 0;
+  background-color: #111;
+}
+
+.menu__options {
+  width: 20%;
+  font-size: 24px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+

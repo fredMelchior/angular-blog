@@ -1,0 +1,10 @@
+.articles__container {
+  display: flex;
+  padding: 24px;
+}
+
+.articles__container__main,
+.articles__container__others {
+  display: flex;
+  flex-direction: column;
+}
