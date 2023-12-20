@@ -8,6 +8,10 @@ header {
   background-color: #111;
 }
 
+h3 {
+  font-size: larger;
+}
+
 .menu__options {
   width: 20%;
   font-size: 24px;

@@ -9,6 +9,8 @@ import { Component, Input } from '@angular/core';
 })
 export class CardBigComponent {
   @Input()
+  id = '0'
+  @Input()
   card_big_image: string = ''
   @Input()
   card_big_image_sub: string = ''

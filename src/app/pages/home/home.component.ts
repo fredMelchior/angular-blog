@@ -4,6 +4,8 @@ import { MenuBarComponent } from "../../components/menu-bar/menu-bar.component";
 import { MenuTitleComponent } from "../../components/menu-title/menu-title.component";
 import { CardBigComponent } from "../../components/card-big/card-big.component";
 import { CardSmallComponent } from "../../components/card-small/card-small.component";
+import { ActivatedRoute } from '@angular/router';
+import { fakeData } from '../../data/fakedata';
 
 @Component({
     selector: 'app-home',
@@ -19,4 +21,16 @@ import { CardSmallComponent } from "../../components/card-small/card-small.compo
         CardSmallComponent
     ]
 })
-export class HomeComponent { }
+export class HomeComponent {
+  // contents = fakeData
+  // id: string = ''
+  // title: string = ''
+  // sub: string = ''
+  // photo: string = ''
+
+  // constructor() {
+  //   for (a in this.contents) {
+  //     this.title = a.
+  //   }
+  // }
+}

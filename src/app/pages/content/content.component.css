@@ -1,0 +1,27 @@
+.content__page__container {
+  height: 100vh;
+  padding: 16px;
+  text-align: center;
+}
+
+.content__cover {
+  display: flex;
+  justify-content: center;
+}
+
+.content__cover > img {
+  object-fit: cover;
+  border-radius: 4px;
+  border: 5px #ccc solid;
+  min-width: 720px;
+}
+
+p {
+  font-style: italic;
+  color: #cbcbcb;
+  line-height: 24px;
+}
+
+.content__title {
+  margin: 16px 0 32px;
+}
